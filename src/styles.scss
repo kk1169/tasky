@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-header{
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3) !important;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3) !important;
+}
+
+
+/***********************************
+BOX
+************************************/
+.box{
+  border-radius: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3) !important;
+}
+
+
+
+/***********************************
+NAVBAR DROPDOWN
+************************************/
+.navbar-custom-menu{
+
+  .navbar-nav{
+
+    .dropdown-menu{
+      box-shadow: 0 1px 2px rgba(0,0,0,0.3) !important;
+      border-radius: 0;
+      border: none;
+      border-top: 1px solid #eee;
+
+      li.footer{
+        a{
+          border-bottom:0;
+          border-radius: 0;
+        }
+      }
+    }
+
+  }
+
+}
